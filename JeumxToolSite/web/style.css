@@ -1,0 +1,327 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 8, 2022, 4:13:28 PM
+    Author     : Silas
+*/
+
+body {
+    background: hsl(217, 21%, 94%) fixed;
+}
+
+.titling {
+    font-size: 31px;
+}
+
+.navigation {
+    background: hsl(217, 15%, 31%);
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    top: 0px;
+}
+
+.navigation a {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 27px;
+    padding-left: 27px;
+    text-decoration: none;
+    background: hsl(217, 15%, 31%);
+    transition: background 1s;
+    color: whitesmoke;
+    float: left;
+}
+
+.navigation a:hover {
+    background: hsl(217, 21%, 94%);
+    color: hsl(217, 15%, 31%);
+}
+
+.content {
+    background: hsl(217, 21%, 94%);
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color: hsl(217, 20%, 21%);
+    max-width: 840px;
+    padding: 12px;
+}
+
+.widget {
+    background: url(images/javabg2.jpg) center 2%,2% dodgerblue;
+    background-repeat: repeat;
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.widget .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.widget a {
+    background: white;
+    color: royalblue;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7%;
+    transition: background 1s;
+    /*float: right;*/
+}
+
+.widget a:hover {
+    background: hsl(217, 91%, 90%);
+}
+
+.widgetb {
+    background: url(images/javabg.jpg) center 100%,100% dodgerblue;
+    background-repeat: repeat;
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.widgetb .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.widgetb a {
+    background: white;
+    color: royalblue;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7%;
+    transition: background 1s;
+    /*float: right;*/
+}
+
+.widgetb a:hover {
+    background: hsl(217, 91%, 90%);
+}
+
+.widgetbdup {
+    background: green;
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.widgetbdup .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.widgetbdup a {
+    background: white;
+    color: green;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7%;
+    transition: background 1s;
+    /*float: right;*/
+}
+
+.widgetbdup a:hover {
+    background: hsl(217, 91%, 90%);
+}
+
+.widgetc {
+    background: url(images/javabg1.jpg) center 2%,2% dodgerblue;
+    background-repeat: repeat;
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.widgetc .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.widgetc a {
+    background: white;
+    color: royalblue;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7%;
+    transition: background 1s;
+    /*float: right;*/
+}
+
+.widgetc a:hover {
+    background: hsl(217, 91%, 90%);
+}
+
+.widgetd {
+    background: url(images/javabg3.jpg) center 7%,7% dodgerblue;
+    background-repeat: repeat;
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.widgetd .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.widgetd a {
+    background: white;
+    color: royalblue;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7%;
+    transition: background 1s;
+    /*float: right;*/
+}
+
+.widgetd a:hover {
+    background: hsl(217, 91%, 90%);
+}
+
+.don {
+    background: linear-gradient(to right, green, lightgreen);
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.don .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.don a {
+    background: white;
+    color: green;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 7%;
+    transition: background 1s;
+    /*float: right;*/
+}
+
+.don a:hover {
+    background: hsl(217, 91%, 90%);
+}
+
+.dev {
+    background: url(images/silas.png) right 3px,3px dodgerblue;
+    background-repeat: no-repeat;
+    background-size: 131px,131px;
+    color: white;
+    padding: 7%;
+    font-size: 180%;
+    border-radius: 5px 41px 41px 5px;
+}
+
+.dev .over {
+    font-size: 21px;
+    color: whitesmoke;
+}
+
+.dev .desc {
+    font-size: 21px;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.load {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    background: url(images/aload.gif) center hsl(217, 15%, 91%);
+    background-size: 37px,37px;
+    background-repeat: no-repeat;
+}
+
+.input {
+    background: hsl(217, 15%, 91%);
+    border-color: hsl(217, 15%, 81%);
+    color: hsl(217, 15%, 31%);
+    border-width: 5px;
+    border-radius: 4%;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    width: 80%;
+    transition: border-color 1s;
+}
+
+.input:focus {
+    border-color: hsl(217, 15%, 51%);
+}
+
+.ginput {
+    background: hsl(217, 15%, 91%);
+    border-color: hsl(217, 15%, 81%);
+    color: hsl(217, 15%, 31%);
+    border-width: 8px;
+    border-radius: 10%;
+    font-family: Bahnschrift;
+    font-size: 24px;
+    width: 180px;
+    transition: border-color 1s;
+}
+
+.ginput:focus {
+    border-color: hsl(217, 15%, 51%);
+}
+
+button {
+    font-family: Bahnschrift;
+    font-size: 20px;
+    background: hsl(137, 87%, 38%);
+    color: whitesmoke;
+    padding: 18px;
+    transition: background 1s;
+    border-width: 7px;
+    border-color: whitesmoke;
+    box-shadow: 0px 0px 12px 5px white;
+    border-radius: 50%;
+}
+
+button:hover {
+    background: hsl(217, 51%, 51%);
+}
+
+.footer {
+    background: hsl(217, 15%, 31%);
+    padding: 21px;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+thanks{
+    float: right;
+}
+
+.window {
+    width: 70%;
+    height: 37.5%;
+    
+}
